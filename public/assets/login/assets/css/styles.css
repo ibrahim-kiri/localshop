@@ -1,0 +1,115 @@
+
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+@font-face{
+	src: url(../fonts/OpenSans-Regular.ttf);
+	font-family: opensans;
+}
+
+body{
+
+	font-family: opensans;
+	font-size: 16px;
+	margin:0px;
+	padding:0px;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+		
+.class_1{
+
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(136, 136, 136);
+	background-image: url("	../images/pexels-photo-7492224.jpeg"	);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 1px;
+	
+}
+
+.class_2{
+
+	width: 100%;
+	max-width: 500px;
+	margin: 30px auto 10px;
+	padding: 20px;
+	background-color: rgba(238, 238, 238, 0.557);
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgb(136, 136, 136) 1px 1px 30px;
+	
+}
+
+.class_3{
+
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	
+}
+
+.class_4{
+
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.class_5{
+
+	display: flex;
+	margin-top:4px;
+	margin-bottom: 4px;
+	padding: 4px;
+	align-items: center;
+	background-color: #F7F7F7FF;
+	
+}
+
+.class_6{
+
+	min-width: 50px;
+	margin: 0.5rem 0.5rem 0.5rem 0px;
+	display: inline-block;
+	width: 119px;
+	
+}
+
+.class_7{
+
+	display: block;
+	width: 100%;
+	padding: 1em;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: rgb(33, 37, 41);
+	background-color: rgb(255, 255, 255);
+	background-clip: padding-box;
+	border: 1px solid rgb(206, 212, 218);
+	appearance: none;
+	border-radius: 0.375rem;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	left: 601.317%;
+	
+}
+
+.class_8{
+
+	font-size: 16px;
+	padding: 15px;
+	border: medium none;
+	color: rgb(255, 255, 255);
+	background-color: rgb(13, 110, 253);
+	border-radius: 30px;
+	margin: 0.25rem 0.125rem;
+	cursor: pointer;
+	width: 260px;
+	
+}
